@@ -1,0 +1,33 @@
+.CONTAINER {
+
+    DISPLAY: FLEX;
+    
+    FLEX-WRAP: WRAP;
+    
+    }
+    
+    .ITEM {
+    
+    WIDTH: 100%;
+    
+    }
+    
+    @MEDIA (MIN-WIDTH: 768PX) {
+    
+    .ITEM {
+    
+    WIDTH: 50%;
+    
+    }
+    
+    }
+    
+    @MEDIA (MIN-WIDTH: 1024PX) {
+    
+    .ITEM {
+    
+    WIDTH: 33.33%;
+    
+    }
+    
+    }
